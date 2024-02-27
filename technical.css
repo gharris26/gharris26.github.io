@@ -2,3 +2,33 @@
     background-color: #d5b0bd;
     margin: 0px;
 }
+
+.firstPostHeader {
+    float: center;
+    text-align: center;
+    color: #984a56;
+    padding: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-image: url(https://images8.alphacoders.com/134/1342341.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.firstPostSubtitle {
+    float: center;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textSection {
+    text-align: justify;
+    color:black;
+    padding-top: 30px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
