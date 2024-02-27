@@ -1,36 +1,131 @@
-h1 {
-    color: red;
+.topnav {
+    background-color: #b07d8a;
+    overflow: hidden;
     position: sticky;
-top: 20px;
-font-weight: 900;
+    top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #ede1de;
+    text-align: justify;
+    padding: 14px 16px;
+    font-size: 16px;
+    position: sticky;
+    top: 0px;
+  }
+  
+ .topnav a:hover {
+    background-color: #d5b0bd;
+    color: #ede1de;
+  }
+  
+  .topnav a.active {
+    background-color: #d5b0bd;
+    color: #ede1de;
+  }
+
+.container {
+    background-color: #d5b0bd;
+    margin: 0px;
 }
 
-p {
-    color:blue;
-    background-color: azure;
-    font-style: italic;
+#home {
+    background-image: url(https://images8.alphacoders.com/134/1342341.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcomeHeader {
+    float: center;
+    text-align: center;
+    color: #984a56;
+    padding: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.aboutMeHeader {
+    float: center;
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profilePictureContainer {
+    padding-top: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePicture {
+    float: center; 
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.aboutMeHeader {
+    float: center;
+}
+
+.paragraphOne {
+    color:black;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
 }
 
 .paragraphTwo {
-    color: orangered;
-    font-style: normal;
+    color: rgb(237, 118, 168);
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
-ul {
-    background-color: bisque;
+.moreAboutMe {
+    background-color: #ffffff;
 }
 
-ol {
-    background-color: blueviolet;
+.blogHeader {
+    padding-top: 30px;
 }
 
-table {
+.likes {
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 50px;
+    margin: auto;
+}
+
+.dislikes {
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 50px;
+    margin: auto;
+}
+
+.table {
     border: black 1px solid;
     font-family:Arial, Helvetica, sans-serif;
+    float: right; 
+    margin: 15px;
 }
 
 @media screen and (min-width: 80rem) {
     .container {
-        margin: 1em 2em;
     }
   }

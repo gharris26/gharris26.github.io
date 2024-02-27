@@ -1,57 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Georgia's Bread Blog</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Georgia's Blog</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="container">
-    <h1>This is my header!</h1> 
-    <p> This is one paragraph.</p>
-    <p class="paragraphTwo"> This is another paragraph.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Hot_cross_buns_-_fig_and_pecan.jpg" width="300" height="200">
-    <div>
-    <a href="https://en.wikipedia.org/wiki/Bread" target="_blank">This is the Wikipedia for Bread!</a>
+    <div class="topnav">
+      <a href="#contact">Contact</a>
+      <a href="#trivia">Trivia</a>
+      <a href="#blog">Blog</a>
+      <a href="#aboutMe">About Me</a>
+      <a class="active" href="#home">Home</a>
     </div>
-    <span>
-    <ul>My favourite types of bread:
-      <li>Hot cross buns</li>
-      <li>Naan bread (preferably garlic)</li>
-      <li>Pizza is technically a bread</li>
-    </ul>
-    <ol>My least favourite types of bread:
-      <li>Gluten-free bread</li>
-      <li>Stale bread</li>
-      <li>Moldly bread</li>
-    </ol>
-  </span>
-  </body>
-  <footer>
-    <table>
-      <tr>
-        <th>Bread</th>
-        <th>Country of Origin</th>
-        <th>Tastiness</th>
-      </tr>
-      <tr>
-        <td>Naan Bread</td>
-        <td>India</td>
-        <td>11/10</td>
-      </tr>
-      <tr>
-        <td>Stollen</td>
-        <td>Germany</td>
-        <td>8/10</td>
-      </tr>
-      <tr>
-        <td>Baguette</td>
-        <td>France</td>
-        <td>8.5/10</td>
-      </tr>
-    </table>
-  </footer>
 
+    <h1 id="home" class="welcomeHeader">Welcome to my blog!</h1>
+
+    <div>
+      <div class="profilePictureContainer">
+        <img
+          src="profilePicture.JPG"
+          width="200"
+          height="200"
+          alt="Picture of me"
+          class="profilePicture"
+        />
+      </div>
+      <h2 id="aboutMe" class="aboutMeHeader">About Me</h2>
+
+      <p class="paragraphOne">
+        Hello and welcome to my blog!
+        <br />
+        Apologies if things are still a little messy around here.
+        <br />
+        I am currently ironing out the creases in my design. My navigation bar,
+        like the rest of this blog, is very much a work in progress.
+        <br />
+        But, hey! That is what this course is for. One day Georgia's Blog will
+        be super functional <em>and</em> super cute.
+      </p>
+
+      <p class="paragraphTwo">
+        For now, please enjoy my blog and the random little functions/elements
+        that it provides.
+      </p>
+    </div>
+
+    <h2 class="blogHeader" id="blog">Blog Posts</h2>
+
+    <h2 class="triviaHeader" id="trivia">Trivia</h2>
+
+    <div class="moreAboutMe">
+      <ul class="likes">
+        Here is some random trivia about me:
+        <li>Favourite color: blue</li>
+        <li>Favourite food: sushi</li>
+        <li>Favourite movie: about time</li>
+        <li>
+          Favourite anime:
+          <a
+            href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba"
+            target="_blank"
+            >demon slayer</a
+          >
+        </li>
+        <li>
+          Favourite game:
+          <a href="https://en.wikipedia.org/wiki/Dragon_Age" target="_blank"
+            >dragon age</a
+          >/<a href="https://en.wikipedia.org/wiki/Mass_Effect" target="_blank"
+            >mass effect</a
+          >
+        </li>
+      </ul>
+
+      <table class="table">
+        <tr>
+          <th>Holiday Destination</th>
+          <th>How Long</th>
+          <th>Rating</th>
+        </tr>
+        <tr>
+          <td>Japan</td>
+          <td>2.5 Weeks</td>
+          <td>10000/10</td>
+        </tr>
+        <tr>
+          <td>South Africa</td>
+          <td>4 Weeks</td>
+          <td>7/10</td>
+        </tr>
+        <tr>
+          <td>Canada</td>
+          <td>2 Years</td>
+          <td>8.5/10</td>
+        </tr>
+      </table>
+
+      <ol class="dislikes">
+        My top five biggest fears:
+        <li>Needles (yikes!)</li>
+        <li>Deep water</li>
+        <li>Car crashes</li>
+        <li>Eels</li>
+        <li>Failing this course</li>
+      </ol>
+    </div>
+  </body>
+
+  <footer>
+    <h2 class="contactHeader" id="contact">Contact information</h2>
+  </footer>
 </html>
