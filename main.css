@@ -94,35 +94,133 @@
     padding-bottom: 30px;
 }
 
-.moreAboutMe {
-    background-color: #ffffff;
+.blogHeader {
+    float: center;
+    text-align: center;
+    color: black;
+    background-color: #d5b0bd;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.blogHeader {
+.blogButtonContainer {
+    float: center;
+    text-align: center;
     padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blogButtons {
+    color: black;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: large;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b07d8a;
+    text-decoration: none;
+}
+
+.triviaContainer {
+    background-color: #ffffff;
+    padding-top: 0px;
+    margin: auto;
+}
+
+.triviaHeader {
+    background-color: #ffffff;
+    float: center;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.triviaText {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .likes {
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
-    padding: 50px;
+    padding: 20px;
     margin: auto;
+}
+
+.pink {
+    color: lightpink;
 }
 
 .dislikes {
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
-    padding: 50px;
+    padding: 20px;
     margin: auto;
 }
 
+.tableContainer {
+    float: center;
+    padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    color:#ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  th, td {
+    background-color: #b07d8a;
+  }
+
 .table {
-    border: black 1px solid;
-    font-family:Arial, Helvetica, sans-serif;
-    float: right; 
-    margin: 15px;
+     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.contactContainer {
+    float: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.contactHeader {
+    float: center;
+    text-align: center;
+    color: black;
+    background-color: #d5b0bd;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactLinks {
+    color: black;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: large;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b07d8a;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 80rem) {
