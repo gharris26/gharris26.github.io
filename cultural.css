@@ -1,0 +1,39 @@
+.container {
+    background-color: #d5b0bd;
+    margin: 0px;
+}
+
+.titleBanner {
+    background-image: url(https://images8.alphacoders.com/134/1342341.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 0px;
+}
+
+.titleHeader {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#9b2651;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.subtitleHeader {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+}
+
+.answerContainer {
+    background-color: #ffffff;
+    border-radius: 5%;
+    float: center;
+    padding: 30px;
+}
+
+.answerText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
