@@ -60,8 +60,8 @@
         <br />
         <br />
         <img
-          src="./images/jsdom1.png"
-          width="150"
+          src="../images/jsdom1.png"
+          width="170"
           height="100"
           alt="An if/else statement depending on socialBattery"
         />
@@ -79,8 +79,8 @@
         <br />
         <br />
         <img
-          src="./images/jsdom2.png"
-          width="150"
+          src="../images/jsdom2.png"
+          width="250"
           height="100"
           alt="A loop that runs for a number of reps per set."
         />
@@ -114,10 +114,10 @@
         <br />
         <br />
         <img
-          src="./images/jsdom3.png"
-          width="150"
-          height="300"
-          alt="A loop that runs for a number of reps per set."
+          src="../images/jsdom3.png"
+          width="200"
+          height="450"
+          alt="The Inspect Element tool being used on my blog's mobile version."
         />
         <br />
         The DOM is also useful for trouble-shooting. As shown above, I can use
@@ -136,13 +136,44 @@
 
     <div class="answerContainer">
       <p class="answerText">
-        Explain the main difference between storing data in an array or object.
+        In Javascript, arrays and objects can both be used to store data.
+        However, the way that they store this data is different. Arrays store
+        data numerically in 'memory locations' (remember [0], [1], [2], [3],
+        etc) and objects store data in 'key-value' pairs. In an array, numbers
+        are declared with square brackets. Objects, however, use curly brackets.
         <br />
         <br />
-        Show an example of when you would access data from an array.
+        Arrays and objects store data differently, so it would make sense that
+        we also access this information differently. Elements in an array are
+        accessed by their numerical index. Remember, we start at [0] rather than
+        [1].
         <br />
         <br />
-        Show an example of when you would access data from an object.
+        <img
+          src="../images/jsdom4.png"
+          width="270"
+          height="50"
+          alt="An example of an array and how to access that data."
+        />
+        <br />
+        <br />
+        In comparison, objects access elements by their named keys.
+        <br />
+        <br />
+        <img
+          src="../images/jsdom5.png"
+          width="250"
+          height="100"
+          alt="An example of an object and how to access that data."
+        />
+        <br />
+        <br />
+        When you have a list of similar items or numbered data, it may be best
+        practice to use an array. For example, an array of names or types of
+        fruit. If you are working with named properties, then it may be best
+        practice to use an object. For example, a person with 'attributes' like
+        their name, age, height, etc. Or, a fruit with attributes such as price,
+        ripeness, source, etc.
       </p>
     </div>
 
@@ -150,11 +181,30 @@
 
     <div class="answerContainer">
       <p class="answerText">
-        Explain what a function is in javascript and what purpose it serves.
+        In Javascript, functions are little blocks of code that have designated
+        roles or jobs. Initially, you start with the function which you can
+        define.
         <br />
         <br />
-        Explain why this is helpful to me, and how I have used it (as an
-        example).
+        <img
+          src="../images/jsdom6.png"
+          width="350"
+          height="200"
+          alt="An example of a function that changes text color."
+        />
+        <br />
+        For example, let's make a function called 'changeTextColor'. This
+        function takes two parameters: color and the elementID. First, it needs
+        to find the matching HTML element with the corresponding elementID. If
+        the element exists it will change its text color. If the element doesn't
+        exist, it will log an error to the console.
+        <br />
+        <br />
+        Functions are useful because they allow you to reuse the same code
+        multiple times, instead of having to write out the same code over and
+        over again. You can define a function once and then call it up whenever
+        you need it (similar to classes in HTML or CSS). This helps keep your
+        code neat, organised, and easier to navigate.
       </p>
     </div>
   </body>
